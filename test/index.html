@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TEST</title>
+        <meta charset="utf-8"/>
+        <script src="../lib/dist/eazer.min.js"></script>
+        <script src="../lib/components/components.js"></script>
+    </head>
+    <body></body>
+    <script>
+        const page = new Page()
+        Style += "background-color: #BADA55"
+
+        const aliases = {
+            TestDuTitre: Title,
+            Boite: Container,
+            Boite2: Container,
+            Titre: Title,
+            Description: SubTitle,
+            Article_Titre: SubTitle,
+            Message: Paragraphe,
+            Notification: Paragraphe,
+            Utilisateur: SubTitle,
+            PhotoDeProfil: Image,
+            PhotoDeDiv: Image,
+            LienDeYtb: Link
+        }
+
+        const contact = "hey"
+        const content = {
+            TestDuTitre: "Ceci est tun test du titre",
+            Boite: { 
+                Titre: "Salut",
+                Notification: "Couccou",
+                PhotoDeDiv: "https://www.pure-ocean.org/wp-content/uploads/2017/09/ocean-image-1030x687.jpg"
+            },
+            Description: ":nc'est moi",
+            Article_Titre: contact,
+            Message: "c'est encore moi",
+            PhotoDeProfil: "http://www.fleux.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/b/a/batterie-externe-emoji-caca.jpg",
+            LienDeYtb: {
+                href: "https://www.youtube.com",
+                content: ":nYOUTUBE"
+            }
+        }
+
+        page.render(content, aliases, Style)
+    </script>
+</html>
