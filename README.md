@@ -1,4 +1,4 @@
-<h2 style="text-align: center; font-size: 30px">EazerJS</h1><hr/>
+<h2 align="center" style="font-size: 30px;">EazerJS</h1><hr/>
 
 ## What is EazerJS ?
 
