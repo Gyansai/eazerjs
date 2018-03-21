@@ -6,9 +6,9 @@ Eazer.js is a powerful DOM engine wich allow you to build HTML websites with Jav
 
 ## Getting started
  
- EazerJS works with 3 importent things : `components`, `aliases` and `content`.
+ EazerJS works with 3 important things : `components`, `aliases` and `content`.
 
- * First create HTML page including EazerJS. ( https://cdn.rawgit.com/dimensi0n/eazerjs/master/lib/dist/eazer.min.js )
+ * First create an HTML page including EazerJS. ( https://cdn.rawgit.com/dimensi0n/eazerjs/master/lib/dist/eazer.min.js )
 
  ```html
  <!DOCTYPE html>
