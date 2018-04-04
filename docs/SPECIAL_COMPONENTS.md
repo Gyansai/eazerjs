@@ -62,3 +62,5 @@ let content = {
     }
 }
 ```
+
+## The links and pics documentation will be written soon
