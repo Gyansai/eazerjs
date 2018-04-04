@@ -79,4 +79,4 @@ Eazer.js is a powerful DOM engine wich allow you to build HTML websites with Jav
 
   Good luck : )
 
-  Div, Link and Images are special components take a look here : The Link to the future doc about Specials Components (Div, Link & Images).
+  Div, Link and Images are special components take a look here : https://github.com/dimensi0n/eazerjs/blob/master/docs/SPECIAL_COMPONENTS.md
